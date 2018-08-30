@@ -1,0 +1,96 @@
+/* Universal Styles */
+
+* {
+  font-family: Arial, sans-serif;
+}
+ 
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.75); 
+}
+
+a:hover, a:active {
+  color: #222;
+  text-decoration: underline;
+}
+
+
+
+/* General Nav Styles */
+
+nav, footer {
+  font-size: 13px;
+}
+
+
+
+/* Top Nav Styles */
+
+nav {
+  padding: 23px 25px;
+}
+
+.grid-nav {
+  display: grid;
+  grid-template-columns: 52px 60px minmax(150px, 3fr) 48px 60px 50px 74px;
+}
+
+
+
+/* Main Content Styles */
+
+main div {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 137px;
+}
+
+#search {
+  height: 40px; width: 490px;
+  margin: 30px 0 0 -20px;
+  padding: 0 10px;
+}
+
+#mic {
+  margin-left: -30px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.language-change {
+  margin-top: 20px;
+}
+
+
+
+/* Footer Styles */
+
+footer {
+  background: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer div {
+  vertical-align: middle;
+  padding: 12px 25px;
+  border: 1px solid #e4e4e4;
+}
+
+.region, .footer-nav a {
+  color: rgba(0, 0, 0, 0.54); 
+}
+
+.region {
+  font-size: 15px;
+}
+
+.footer-nav ul {
+  display: grid;
+  grid-template-columns: 100px 100px minmax(150px, 4fr) 60px 60px 70px;
+}
