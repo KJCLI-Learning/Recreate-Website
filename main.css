@@ -32,7 +32,15 @@ nav {
 
 .grid-nav {
   display: grid;
-  grid-template-columns: 52px 60px minmax(150px, 3fr) 48px 60px 50px 74px;
+  grid-template-columns: 52px 60px minmax(150px, 3fr) 49px 56px 50px 77px;
+}
+
+.boxes {
+  margin-top: -8px;
+}
+
+.user-notification {
+  margin-top: -17px;
 }
 
 
@@ -44,25 +52,47 @@ main div {
 }
 
 .logo {
-  margin-top: 137px;
+  margin-top: 115px;
 }
 
 #search {
-  height: 40px; width: 490px;
-  margin: 30px 0 0 -20px;
+  border: 1px solid #DDD;
+  border-radius: 2px;
+  box-shadow: 0px 3px 8px #CCC;
+  height: 45px; width: 485px;
+  margin: 23px 0 0 -20px;
   padding: 0 10px;
 }
 
 #mic {
-  margin-left: -30px;
+  margin-left: -40px;
+  vertical-align: middle;
 }
 
 .buttons {
   margin-top: 30px;
 }
 
+.buttons button {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 2px;
+  color: #777;
+  font-weight: bold;
+  height: 37px;
+  margin: 0px 2px;
+  padding: 5px 16px;
+}
+
 .language-change {
-  margin-top: 20px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.language-change a {
+  color: #1a0dab;
+  display: inline-block;
+  margin: 0 2px;
 }
 
 
@@ -78,11 +108,11 @@ footer {
 
 footer div {
   vertical-align: middle;
-  padding: 12px 25px;
+  padding: 12px 29px;
   border: 1px solid #e4e4e4;
 }
 
-.region, .footer-nav a {
+.region {
   color: rgba(0, 0, 0, 0.54); 
 }
 
@@ -92,5 +122,9 @@ footer div {
 
 .footer-nav ul {
   display: grid;
-  grid-template-columns: 100px 100px minmax(150px, 4fr) 60px 60px 70px;
+  grid-template-columns: 91px 100px minmax(150px, 4fr) 71px 62px 47px;
+}
+
+.footer-nav a {
+ color: rgba(0, 0, 0, 0.68);
 }
